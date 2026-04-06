@@ -22,6 +22,7 @@ The analysis covers 616 US-listed companies across various sectors and market ca
 **Data Availability**: This project uses datasets provided by Monash University for academic purposes.  
 The data is not included due to academic integrity and usage restrictions.
 
+<!-- 
 ## Methodology
 1. Data Exploration
     - Performed exploratory data analysis (EDA) to understand data structure, distribution, and initial patterns.
@@ -39,3 +40,11 @@ The data is not included due to academic integrity and usage restrictions.
     - Built a predictive pipeline using `Random Forest Regression`.
 5. Model Evaluation
     - `Root Mean Squared Error (RMSE)`
+-->
+
+## How To Run
+1. Install dependencies `pip install -r requirements.txt` using python
+2. Run the notebooks in order:
+    - `eda_portfolio.ipynb`
+    - `model_implementation.ipynb`
+    - `Predicition_insight.ipynb`
